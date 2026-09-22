@@ -1,0 +1,560 @@
+最新前沿技术资讯
+
+一、入门教程｜Getting Started
+原标题：架构复盘：供应链安全架构依赖包风险治理
+简介：ServiceWorker 缓存页面更新清理，处理 ServiceWorker 缓存，实现页面新版本更新，用户可以加载最新页面。
+ | 原文链接：http://book.ccfyxt.asia/blog/6033678.sHtMl
+
+原标题：坑点：限流计数器重置时机错误，绕过限流规则
+简介：nodejs 中间件模式原理剖析，拆解 Node 中间件设计模式，理解请求逐层处理流转的底层原理。
+ | 原文链接：http://book.ccfyxt.asia/blog/7113478.sHtMl
+
+原标题：golang defer panic 异常处理
+简介：golang html 模板防 xss 自动转义，理解 go html/template 自动转义，防止 XSS 攻击，处理不需要转义场景。
+ | 原文链接：http://book.ccfyxt.asia/blog/8224713.sHtMl
+
+原标题：调优方案：gzip压缩开启降低网络传输体积
+简介：golang go 爬虫代理池轮换使用，http 代理池轮换，请求自动切换代理 IP，突破访问限制。
+ | 原文链接：http://book.ccfyxt.asia/blog/7266578.sHtMl
+
+原标题：前端错误监控上报系统搭建
+简介：跨域偶现失败配置修复，解决跨域问题时而复现时而正常，定位配置漏配、请求头异常等隐性问题。
+ | 原文链接：http://book.ccfyxt.asia/blog/3014712.sHtMl
+
+原标题：golang 系统设计防爬虫简单策略
+简介：golang bytes.Buffer 字节缓冲区使用，bytes.Buffer 字节内存缓冲区，拼接字节，避免频繁内存分配。
+ | 原文链接：http://book.ccfyxt.asia/blog/8558924.sHtMl
+
+原标题：golang redis 发布订阅简单示例
+简介：react 状态管理方案选型对比，对比 Redux、Zustand 等 React 状态管理库，分析适用业务场景辅助选型。
+ | 原文链接：http://book.ccfyxt.asia/blog/5045813.sHtMl
+
+原标题：golang 系统设计网关路由规则动态配置实现
+简介：golang defer panic 异常处理，理解 defer 延迟执行，panic 恐慌捕获，实现函数资源释放异常保护。
+ | 原文链接：http://book.ccfyxt.asia/blog/3813700.sHtMl
+
+原标题：golang docker 部署 mongodb 开发环境
+简介：golang k8s secret 敏感配置加载，加载 k8s secret 存储密钥密码，敏感信息不存放配置文件。
+ | 原文链接：http://book.ccfyxt.asia/blog/6679149.sHtMl
+
+原标题：Debug日志：生产环境偶发空指针异常排查
+简介：golang url 参数编码处理方案，Go URL 参数编码解码，处理特殊字符，避免 URL 参数错乱。
+ | 原文链接：http://book.ccfyxt.asia/blog/9501038.sHtMl
+
+原标题：golang 系统设计告警风暴抑制方案实现
+简介：golang os.Signal 信号监听完整示例，signal.Notify 监听信号，缓冲 channel 防止信号丢失。
+ | 原文链接：http://book.ccfyxt.asia/blog/7559135.sHtMl
+
+原标题：零基础理解JSON、XML数据格式处理
+简介：golang go mod why 查询依赖引入原因，go mod why 查询为什么引入某个包，理清依赖来源。
+ | 原文链接：http://book.ccfyxt.asia/blog/7558703.sHtMl
+
+原标题：实战：单元测试+集成测试完整项目落地实践
+简介：golang go 网络编程 net 包基础，net 包 tcp udp socket 编程，监听接收连接，读写数据。
+ | 原文链接：http://book.ccfyxt.asia/blog/7688680.sHtMl
+
+原标题：架构复盘：系统扩容缩容架构无状态优先原则
+简介：百万数据 Excel 导出内存优化，优化大 Excel 导出逻辑，流式输出，避免一次性加载全部数据造成 OOM。
+ | 原文链接：http://book.ccfyxt.asia/blog/5708970.sHtMl
+
+原标题：性能笔记：RPC超时参数优化防止级联阻塞
+简介：Dockerfile 编写容器打包实战，讲解 Dockerfile 指令含义，编写镜像构建脚本，将本地项目打包成可分发容器镜像。
+ | 原文链接：http://book.ccfyxt.asia/blog/9246813.sHtMl
+
+原标题：OpenSource：大型仓库Git历史清理瘦身实操
+简介：序列化版本不一致解析失败，保证序列化对象版本对齐，修复版本不匹配导致对象反序列化失败。
+ | 原文链接：http://book.ccfyxt.asia/blog/2782382.sHtMl
+
+原标题：golang 优雅关闭 grpc 服务示例
+简介：时间精度统一业务判断修复，统一业务使用时间戳精度，毫秒秒区分清楚，修复时间判断逻辑错误。
+ | 原文链接：http://book.ccfyxt.asia/blog/9335791.sHtMl
+
+原标题：golang docker 部署 prometheus 整套
+简介：react 状态管理方案选型对比，对比 Redux、Zustand 等 React 状态管理库，分析适用业务场景辅助选型。
+ | 原文链接：http://book.ccfyxt.asia/blog/5003693.sHtMl
+
+原标题：性能复盘：网络IO优化减少接口等待时间
+简介：环境变量不生效问题修复，排查环境变量加载顺序、作用域问题，修复环境变量读取不到的异常。
+ | 原文链接：http://book.ccfyxt.asia/blog/4246083.sHtMl
+
+原标题：排错：对象存储跨域配置不生效前端上传失败
+简介：golang defer 闭包变量捕获坑，defer 捕获循环变量引用，变量被复写，理解闭包变量捕获规则。
+ | 原文链接：http://book.ccfyxt.asia/blog/8656581.sHtMl
+
+原标题：记一次内存Swap被大量使用系统响应缓慢
+简介：react 状态管理方案选型对比，对比 Redux、Zustand 等 React 状态管理库，分析适用业务场景辅助选型。
+ | 原文链接：http://book.ccfyxt.asia/blog/4833359.sHtMl
+
+原标题：实战：gRPC服务编写客户端服务端完整demo
+简介：消息消费重试次数限制防爆炸，限制消息最大重试次数，防止失败消息无限重试造成消息爆炸堆积。
+ | 原文链接：http://book.ccfyxt.asia/blog/2612760.sHtMl
+
+原标题：golang k8s liveness readiness 探针
+简介：前端打包产物体积压缩优化，多手段压缩前端打包产物，移除无用代码，压缩资源，提升页面加载速度。
+ | 原文链接：http://book.ccfyxt.asia/blog/6156903.sHtMl
+
+原标题：golang 系统设计接口返回格式统一规范
+简介：golang atomic 原子操作整数，atomic 加减比较交换，无锁更新整型变量，简单计数器场景。
+ | 原文链接：http://book.ccfyxt.asia/blog/8560235.sHtMl
+
+原标题：golang k8s 资源请求限制配置
+简介：golang http 重定向策略自定义，CheckRedirect 自定义重定向逻辑，限制重定向次数，防止死循环。
+ | 原文链接：http://book.ccfyxt.asia/blog/6264705.sHtMl
+
+原标题：golang es bool 查询条件组合技巧
+简介：golang go select 多路等待 channel，select 等待多个 channel，default 非阻塞，超时等待 channel。
+ | 原文链接：http://book.ccfyxt.asia/blog/9257921.sHtMl
+
+原标题：短信服务封装失败自动重试
+简介：service‑worker 离线缓存实践，使用 ServiceWorker 实现静态资源离线缓存，弱网环境页面依然可访问。
+ | 原文链接：http://book.ccfyxt.asia/blog/4935815.sHtMl
+
+原标题：golang 系统设计配置热更新不重启服务实现
+简介：golang testify mock 模拟接口，mock 接口生成 mock 对象，单元测试模拟外部依赖行为。
+ | 原文链接：http://book.ccfyxt.asia/blog/2702445.sHtMl
+
+原标题：golang 系统设计第三方接口 mock 单元测试
+简介：golang excel 生成导出高性能方案，excelize 流式生成 excel，百万行数据导出，规避内存溢出。
+ | 原文链接：http://book.ccfyxt.asia/blog/2509238.sHtMl
+
+原标题：golang es 分词器选型业务适配
+简介：golang wasm webassembly go 编译，go 编译为 wasm，浏览器执行 go 代码，拓展 go 运行场景。
+ | 原文链接：http://book.ccfyxt.asia/blog/7346700.sHtMl
+
+原标题：前端工程化 webpack 打包优化
+简介：Git commit 钩子提交规范校验，配置 Git 提交钩子，提交代码自动校验提交信息格式，规范提交记录。
+ | 原文链接：http://book.ccfyxt.asia/blog/3024715.sHtMl
+
+原标题：golang 系统设计消息大小限制业务处理方案
+简介：golang go decimal 定点小数金额计算，decimal 库处理金额，规避 float64 精度丢失，财务计算。
+ | 原文链接：http://book.ccfyxt.asia/blog/5498890.sHtMl
+
+原标题：golang 系统设计数据库慢请求排查流程
+简介：golang go 爬虫请求速率控制，爬虫限频、代理轮换，设置 UA，防止爬虫被目标站点封禁 IP。
+ | 原文链接：http://book.ccfyxt.asia/blog/0163638.sHtMl
+
+原标题：golang 系统设计密码存储哈希加盐实现
+简介：程序信号中断退出处理逻辑，捕获系统中断信号，执行资源释放、关闭连接，实现程序优雅退出。
+ | 原文链接：http://book.ccfyxt.asia/blog/6507116.sHtMl
+
+原标题：OpenSource：开源项目贡献者协作流程规范
+简介：golang go 变量逃逸场景汇总，切片、指针、返回局部变量引发逃逸，变量分配到堆影响 GC。
+ | 原文链接：http://book.ccfyxt.asia/blog/3232438.sHtMl
+
+原标题：热更新开发环境配置教程
+简介：golang 时间轮算法实现延时调度，手写简易时间轮，高并发大量延时任务，降低轮询 CPU 消耗。
+ | 原文链接：http://book.ccfyxt.asia/blog/1278890.sHtMl
+
+原标题：golang 系统设计时间字段选型 datetime timestamp
+简介：golang go 值传递引用传递理解，go 全部为值传递，指针本质拷贝指针值，理清参数传递行为。
+ | 原文链接：http://book.ccfyxt.asia/blog/3936472.sHtMl
+
+原标题：开发复盘：数据库批量更新优化性能实践
+简介：golang map 并发读写 panic 解决方案，map 非并发安全，讲解加锁、sync.map 方案解决并发读写崩溃。
+ | 原文链接：http://book.ccfyxt.asia/blog/7145709.sHtMl
+
+原标题：nodejs 信号处理优雅关闭服务
+简介：golang go 领域驱动 DDD 项目分层，go 项目 DDD 分层架构，领域层应用层基础设施层划分业务代码。
+ | 原文链接：http://book.ccfyxt.asia/blog/4812666.sHtMl
+
+原标题：golang 系统设计开源项目安全漏洞处理流程
+简介：nodejs 脚手架工具开发完整教程，从零开发 Node 命令行脚手架，实现项目模板生成，理解 CLI 开发。
+ | 原文链接：http://book.ccfyxt.asia/blog/0011699.sHtMl
+
+
+二、踩坑排错｜Troubleshooting
+原标题：接口压测定位系统性能瓶颈
+简介：golang 数据库连接泄露排查，定位 Go 数据库连接泄露，连接没有归还池，导致连接耗尽报错。
+ | 原文链接：http://book.ccfyxt.asia/blog/9360336.sHtMl
+
+原标题：golang 系统设计 lru 缓存算法实现思路
+简介：golang 静态编译缩小镜像体积，Go 程序静态编译，不依赖系统库，产出单二进制文件，缩小镜像。
+ | 原文链接：http://book.ccfyxt.asia/blog/3600467.sHtMl
+
+原标题：golang 系统设计接口超时设计原则梳理
+简介：golang accept 错误循环崩溃处理，accept 返回系统错误，处理临时错误，避免死循环占满 CPU。
+ | 原文链接：http://book.ccfyxt.asia/blog/0497123.sHtMl
+
+原标题：nodejs 读取大文件 csv 处理方案
+简介：nodejs 中间件模式原理剖析，拆解 Node 中间件设计模式，理解请求逐层处理流转的底层原理。
+ | 原文链接：http://book.ccfyxt.asia/blog/5045816.sHtMl
+
+原标题：架构复盘：供应链安全架构依赖包风险治理
+简介：golang goroutine 泄露检测告警实现，监控 goroutine 数量，突增触发告警，提早发现协程泄露。
+ | 原文链接：http://book.ccfyxt.asia/blog/5921357.sHtMl
+
+原标题：golang git 提交信息规范校验
+简介：golang go work 多模块本地开发，go work 多模块本地同时开发，本地模块互相引用，无需推送仓库。
+ | 原文链接：http://book.ccfyxt.asia/blog/0265715.sHtMl
+
+原标题：golang 分布式锁防死锁处理
+简介：业务错误码体系设计方案，设计项目统一错误码，区分不同业务异常，标准化错误返回，便于前端识别处理。
+ | 原文链接：http://book.ccfyxt.asia/blog/9380259.sHtMl
+
+原标题：跨域偶现失败配置修复
+简介：golang go mod vendor 本地依赖导出，导出 vendor 目录，离线环境编译项目，无需访问外网拉依赖。
+ | 原文链接：http://book.ccfyxt.asia/blog/2613591.sHtMl
+
+原标题：golang 系统设计 api 接口兼容性设计原则
+简介：golang go 测试 t.Run 子测试分组，t.Run 实现子测试，分组执行用例，输出分组测试结果。
+ | 原文链接：http://book.ccfyxt.asia/blog/5913375.sHtMl
+
+原标题：Troubleshoot：异步异常未捕获，进程悄无声息退出
+简介：golang jaeger 链路追踪部署对接，jaeger 接收 opentelemetry 链路数据，可视化完整调用链路。
+ | 原文链接：http://book.ccfyxt.asia/blog/8579169.sHtMl
+
+原标题：golang 系统设计故障复盘模板 postmortem 参考
+简介：golang goroutine 池任务调度，实现 goroutine 池，复用协程，频繁任务场景减少协程创建销毁开销。
+ | 原文链接：http://book.ccfyxt.asia/blog/9303580.sHtMl
+
+原标题：运维笔记：服务器日志轮转logrotate配置
+简介：golang 文件句柄耗尽排查处理，统计进程打开文件句柄，找到未关闭文件，修复句柄泄漏问题。
+ | 原文链接：http://book.ccfyxt.asia/blog/9334677.sHtMl
+
+原标题：踩坑：环境变量未生效导致线上配置错乱
+简介：主干开发团队代码合并策略，讲解主干开发模式，团队代码合并流程，适合高频迭代的团队协作模式。
+ | 原文链接：http://book.ccfyxt.asia/blog/8370243.sHtMl
+
+原标题：开发复盘：大事务拆分优化业务性能实践
+简介：golang time.After 内存泄漏场景，for 循环使用 time.After 会创建大量 timer，造成内存泄漏。
+ | 原文链接：http://book.ccfyxt.asia/blog/5992268.sHtMl
+
+原标题：新手向：开源项目依赖安装失败排查
+简介：golang excel 大文件读取流式解析，流式读取大 excel 文件，逐行解析数据，不加载全部内容进内存。
+ | 原文链接：http://book.ccfyxt.asia/blog/8269658.sHtMl
+
+原标题：Performance：数据库join优化，大表join规避
+简介：golang go 锁竞争导致 CPU 飙升，识别锁竞争场景，减少锁粒度，优化并发逻辑降低 CPU 开销。
+ | 原文链接：http://book.ccfyxt.asia/blog/5235814.sHtMl
+
+原标题：零基础理解内存溢出基础现象与表现
+简介：golang 结构体深浅拷贝区别实操，区分结构体浅拷贝深拷贝，规避指针引用带来数据意外篡改问题。
+ | 原文链接：http://book.ccfyxt.asia/blog/3713603.sHtMl
+
+原标题：运维笔记：系统文件句柄数调整生产配置
+简介：消息队列重复消费业务处理，实现消息消费幂等，处理重复投递消息，保证多次消费业务结果一致。
+ | 原文链接：http://book.ccfyxt.asia/blog/8270802.sHtMl
+
+原标题：golang 系统设计回调重试幂等完整处理
+简介：批量操作分批处理防止 OOM，大批量数据处理不一次性加载全部数据，分批循环处理，避免内存溢出。
+ | 原文链接：http://book.ccfyxt.asia/blog/5932357.sHtMl
+
+原标题：Practice：实现跨机器文件同步脚本实践
+简介：golang go mod replace 本地模块替换，replace 替换模块为本地目录，修改第三方库本地调试。
+ | 原文链接：http://book.ccfyxt.asia/blog/5821359.sHtMl
+
+原标题：零基础理解内存溢出基础现象与表现
+简介：golang go 项目依赖冲突解决完整思路，定位冲突包，replace、exclude、升级降级解决版本冲突。
+ | 原文链接：http://book.ccfyxt.asia/blog/5225570.sHtMl
+
+原标题：新手向：开源项目本地构建失败通用排查步骤
+简介：golang crypto 密码学最佳实践，go crypto 包加密签名，规避不安全算法，使用安全密码套件。
+ | 原文链接：http://book.ccfyxt.asia/blog/7150135.sHtMl
+
+原标题：golang 系统设计 pr 评审合并完整流程
+简介：golang redis geo 地理位置存储查询，Redis GEO 存储经纬度，查询附近点位，实现附近人业务功能。
+ | 原文链接：http://book.ccfyxt.asia/blog/5803434.sHtMl
+
+原标题：运维笔记：系统监控指标大盘搭建实操
+简介：golang 日志按日期切割实现方案，实现日志文件按天切割，自动归档旧日志，防止单个日志文件过大。
+ | 原文链接：http://book.ccfyxt.asia/blog/2710147.sHtMl
+
+原标题：排错：内网域名解析不稳定导致服务随机报错
+简介：Docker 容器网络不通排查，排查容器网络模式、端口映射、防火墙，解决容器之间、容器外部网络不通。
+ | 原文链接：http://book.ccfyxt.asia/blog/4127036.sHtMl
+
+原标题：部署复盘：静态站点部署CDN完整流程
+简介：nodejs 多进程任务分发处理，多进程拆分处理 CPU 密集任务，主进程分发任务，利用多核提升处理速度。
+ | 原文链接：http://book.ccfyxt.asia/blog/5225697.sHtMl
+
+原标题：golang 系统设计配置多环境本地开发适配方案
+简介：正则表达式优化 CPU 占满问题，优化正则表达式写法，避免回溯，防止正则运算 CPU 占用 100%。
+ | 原文链接：http://book.ccfyxt.asia/blog/4824593.sHtMl
+
+原标题：性能调优：MySQL查询性能优化实战清单
+简介：golang go 程序权限最小化运行，容器内使用普通用户运行程序，拒绝 root 运行提升安全等级。
+ | 原文链接：http://book.ccfyxt.asia/blog/8292470.sHtMl
+
+原标题：golang 系统设计本地缓存与分布式缓存
+简介：golang 制品镜像版本号规范管理，镜像版本号结合 git commit，明确每个镜像对应代码版本便于追溯。
+ | 原文链接：http://book.ccfyxt.asia/blog/4781358.sHtMl
+
+原标题：开源实践：开源项目如何写好PullRequest
+简介：golang 协程数量监控统计方案，统计运行中 goroutine 数量，监控协程泄露，协程数量异常及时告警。
+ | 原文链接：http://book.ccfyxt.asia/blog/5914487.sHtMl
+
+原标题：坑点：gitcherry‑pick引入不兼容代码
+简介：golang dns 自定义解析器实现，自定义 dns 解析，指定 dns 服务器，控制域名解析逻辑，适配内网环境。
+ | 原文链接：http://book.ccfyxt.asia/blog/3814581.sHtMl
+
+原标题：golang grafana 面板变量模板制作
+简介：异步异常捕获避免进程崩溃，捕获异步代码内部抛出异常，防止未捕获异常直接导致整个进程退出。
+ | 原文链接：http://book.ccfyxt.asia/blog/6035703.sHtMl
+
+原标题：新手教程：如何给开源项目提交第一个PR
+简介：golang make new 关键字使用区别，分清 new 与 make 适用类型，正确初始化切片 map 通道，杜绝 nil 引发 panic。
+ | 原文链接：http://book.ccfyxt.asia/blog/5360036.sHtMl
+
+原标题：golang docker 部署 mysql 注意事项
+简介：nodejs 信号处理优雅关闭服务，监听系统信号，执行资源清理，实现 Node 服务优雅停机，拒绝粗暴杀死进程。
+ | 原文链接：http://book.ccfyxt.asia/blog/5943469.sHtMl
+
+原标题：排错：多实例部署session共享失效登录失效
+简介：golang influxdb 时序数据库读写操作，influxdb 存储时序指标，业务指标监控数据存取。
+ | 原文链接：http://book.ccfyxt.asia/blog/2681348.sHtMl
+
+原标题：golang 系统设计日志级别业务使用原则梳理
+简介：git rebase 整理提交历史实操，使用 rebase 整理杂乱提交记录，将多条提交合并，保持 git 提交历史干净线性。
+ | 原文链接：http://book.ccfyxt.asia/blog/2915709.sHtMl
+
+原标题：Debug：DNS缓存TTL设置不当服务切换无法生效
+简介：服务器时钟同步任务错乱修复，配置服务器 NTP 时间同步，保证集群所有机器时间保持一致。
+ | 原文链接：http://book.ccfyxt.asia/blog/2670214.sHtMl
+
+原标题：安全笔记：Cookie安全属性SecureHttpOnly
+简介：数据库读写分离性能优化，讲解读写分离原理，主库写入从库查询，分担数据库查询压力，提升查询性能。
+ | 原文链接：http://book.ccfyxt.asia/blog/0492381.sHtMl
+
+原标题：多线程线程安全脏数据规避
+简介：golang go cover 覆盖率报告生成，go test‑cover 生成测试覆盖率，html 可视化查看未覆盖代码行。
+ | 原文链接：http://book.ccfyxt.asia/blog/6025569.sHtMl
+
+原标题：开发记录：实现完整用户登录鉴权业务模块
+简介：golang go 爬虫代理池轮换使用，http 代理池轮换，请求自动切换代理 IP，突破访问限制。
+ | 原文链接：http://book.ccfyxt.asia/blog/5004579.sHtMl
+
+三、实战开发｜Practice
+原标题：性能笔记：RPC超时参数优化防止级联阻塞
+简介：语义化版本依赖管理防错乱，项目依赖遵循语义版本约束，规避依赖自动升级引入不兼容变更。
+ | 原文链接：http://book.ccfyxt.asia/blog/5943478.sHtMl
+
+原标题：记一次限流组件误配置把正常用户拦截
+简介：线程调度优化减少上下文切换，优化线程数量，减少线程频繁切换，降低 CPU 上下文切换开销。
+ | 原文链接：http://book.ccfyxt.asia/blog/1882236.sHtMl
+
+原标题：预编译 SQL 防注入实现
+简介：golang gif 图片帧处理操作，解析 gif 图片帧，压缩、拆分 gif 动图，处理动图业务。
+ | 原文链接：http://book.ccfyxt.asia/blog/6007479.sHtMl
+
+原标题：实战项目：搭建私有Docker镜像仓库本地实践
+简介：golang context 上下文传参讲解，讲解 Context 使用场景，传递元数据、控制协程超时取消，规范协程控制。
+ | 原文链接：http://book.ccfyxt.asia/blog/2666912.sHtMl
+
+原标题：踩坑记录：CPU亲和配置不合理多核心负载不均
+简介：golang gorm group by 分组统计，GORM 分组聚合统计，实现 count sum 等统计查询，快速完成统计业务。
+ | 原文链接：http://book.ccfyxt.asia/blog/8715691.sHtMl
+
+原标题：从零学习简单分页逻辑实现思路
+简介：golang sync.Mutex 互斥锁正确模式，互斥锁 defer Unlock，锁粒度控制，避免锁范围过大。
+ | 原文链接：http://book.ccfyxt.asia/blog/2602547.sHtMl
+
+原标题：golang 系统设计开源 pr 评审合并流程实操
+简介：golang sync.Map 高并发 map 使用场景，sync.Map 适用场景，读写实操，对比普通 map 加锁性能差异。
+ | 原文链接：http://book.ccfyxt.asia/blog/6013698.sHtMl
+
+原标题：安全复盘：Nginx配置不当带来的安全风险
+简介：golang go 程序守护进程实现思路，go 程序不做 daemon 化，依靠 systemd pm2 k8s 实现进程守护。
+ | 原文链接：http://book.ccfyxt.asia/blog/8556810.sHtMl
+
+原标题：Git LFS 大文件推送失败解决
+简介：golang sync.Mutex 互斥锁正确模式，互斥锁 defer Unlock，锁粒度控制，避免锁范围过大。
+ | 原文链接：http://book.ccfyxt.asia/blog/0779814.sHtMl
+
+原标题：nodejs 定时任务生产环境避坑
+简介：golang 日志 zap 结构化日志实践，接入 Zap 结构化日志库，打印结构化日志，方便日志检索解析。
+ | 原文链接：http://book.ccfyxt.asia/blog/0470921.sHtMl
+
+原标题：golang redis pipeline 批量操作
+简介：golang 系统信号信号量处理，Go 处理系统各类信号，SIGINT、SIGTERM，实现程序可控退出。
+ | 原文链接：http://book.ccfyxt.asia/blog/5937035.sHtMl
+
+原标题：golang mysql 长连接短连接对比
+简介：golang go 程序抢占调度理解，理解 go 抢占式调度原理，长循环阻塞调度，造成协程调度延迟。
+ | 原文链接：http://book.ccfyxt.asia/blog/0477099.sHtMl
+
+原标题：golang ci 流水线单元测试集成测试
+简介：golang etcd key 监听变更 watch 机制，watch 监听 etcd 键变化，配置变更实时感知，实现配置热更新。
+ | 原文链接：http://book.ccfyxt.asia/blog/2771244.sHtMl
+
+原标题：Issue：操作系统最大打开文件数限制导致报错
+简介：golang kafka 消费者位移管理，理解 kafka offset，手动提交位移，保证消息消费至少一次语义。
+ | 原文链接：http://book.ccfyxt.asia/blog/1870326.sHtMl
+
+原标题：golang 系统设计配置多环境隔离方案落地
+简介：express 请求参数校验处理，接入参数校验库，校验入参，拦截非法参数，提前拦截错误请求。
+ | 原文链接：http://book.ccfyxt.asia/blog/2834871.sHtMl
+
+原标题：优化实践：接口批量合并减少网络请求次数
+简介：重复提交幂等防护再次讲解，梳理前端重复点击、网络重试场景，落地接口幂等，杜绝重复业务。
+ | 原文链接：http://book.ccfyxt.asia/blog/7447814.sHtMl
+
+原标题：golang 系统设计技术文档维护更新最佳实践
+简介：golang race 检测器性能开销，race 检测器有性能损耗，只用于测试环境，禁止生产开启 race。
+ | 原文链接：http://book.ccfyxt.asia/blog/6833472.sHtMl
+
+原标题：golang 系统设计会话共享多实例部署
+简介：golang json omitempty 零值坑，omitempty 会忽略零值，区分业务是否需要输出零值字段。
+ | 原文链接：http://book.ccfyxt.asia/blog/0483588.sHtMl
+
+原标题：安全实践：接口错误信息不要暴露内部细节
+简介：golang grpc 客户端流上传数据，客户端流式请求，客户端分批上传数据到服务端，适合大文件传输。
+ | 原文链接：http://book.ccfyxt.asia/blog/7135804.sHtMl
+
+原标题：架构复盘：跨机房多活架构基础概念与代价
+简介：跨域偶现失败配置修复，解决跨域问题时而复现时而正常，定位配置漏配、请求头异常等隐性问题。
+ | 原文链接：http://book.ccfyxt.asia/blog/4802144.sHtMl
+
+原标题：快速入门OpenAPI文档生成基础实践
+简介：简易网关请求路由过滤模拟，模拟网关基础能力，实现请求路由转发、简单过滤，理解网关核心工作逻辑。
+ | 原文链接：http://book.ccfyxt.asia/blog/0704704.sHtMl
+
+原标题：Nginx 静态代理负载均衡全套配置
+简介：端口占用释放资源重启服务，查找占用端口进程，结束占用进程，释放端口，让服务能够正常启动监听。
+ | 原文链接：http://book.ccfyxt.asia/blog/6167059.sHtMl
+
+原标题：golang gorm 预加载关联查询优化
+简介：日志驱动异常日志不输出修复，排查日志驱动配置，修复日志写入配置，恢复程序正常日志输出。
+ | 原文链接：http://book.ccfyxt.asia/blog/2991437.sHtMl
+
+原标题：开发环境变量配置全平台教程
+简介：golang 协程 panic 捕获防止崩溃，协程内部捕获 panic，防止单个协程恐慌造成整个 Go 进程崩溃。
+ | 原文链接：http://book.ccfyxt.asia/blog/1608148.sHtMl
+
+原标题：golang 系统设计线上故障排查完整流程
+简介：golang mysql 长连接检测保活设置，配置 mysql 连接保活检测，剔除失效连接，避免拿到断开无效数据库连接。
+ | 原文链接：http://book.ccfyxt.asia/blog/8169925.sHtMl
+
+原标题：开发记录：实现完整用户登录鉴权业务模块
+简介：gRPC 服务端客户端入门示例，搭建 gRPC 服务端与调用客户端，学习 protobuf 定义，掌握 RPC 基础开发流程。
+ | 原文链接：http://book.ccfyxt.asia/blog/6357148.sHtMl
+
+原标题：新手快速上手 Git 版本控制实操指南
+简介：golang go math 大数高精度计算，math/big 处理超大整数、高精度浮点数，金额大数运算。
+ | 原文链接：http://book.ccfyxt.asia/blog/8490367.sHtMl
+
+原标题：快速入门简单签名校验实现思路
+简介：golang kitex 超时重试熔断配置，kitex 配置调用超时、重试、熔断策略，保障微服务调用稳定性。
+ | 原文链接：http://book.ccfyxt.asia/blog/3891329.sHtMl
+
+原标题：golang 系统设计熔断降级架构讲解
+简介：本地数据库开发环境搭建指南，讲解数据库安装配置、账号权限设置、连接测试，快速搭建用于开发调试的数据库实例。
+ | 原文链接：http://book.ccfyxt.asia/blog/2682159.sHtMl
+
+原标题：Nginx 丢失请求头配置修正
+简介：golang go 零停机升级实践要点，socket 继承，流量无损，旧连接处理完毕后旧进程退出。
+ | 原文链接：http://book.ccfyxt.asia/blog/8278905.sHtMl
+
+原标题：Hands‑on：简易请求转发代理中间件实现
+简介：浏览器本地存储安全使用技巧，讲解 localStorage、sessionStorage 使用边界，规避 XSS 泄露存储数据。
+ | 原文链接：http://book.ccfyxt.asia/blog/0888703.sHtMl
+
+原标题：golang 系统设计 protobuf 命名规范最佳实践
+简介：golang cgo 调用 C 语言代码示例，cgo 调用 C 函数，go 与 C 互相调用，对接 C 语言库能力。
+ | 原文链接：http://book.ccfyxt.asia/blog/1501144.sHtMl
+
+原标题：架构复盘：慢查询治理架构层面优化手段
+简介：golang 自定义 http round tripper，封装 http 客户端拦截，实现请求日志、签名、重试统一处理逻辑。
+ | 原文链接：http://book.ccfyxt.asia/blog/7168149.sHtMl
+
+原标题：golang 系统设计数据脱敏架构实现
+简介：多操作系统开发兼容处理，解决不同系统路径、换行符、权限差异，保证项目跨平台正常运行。
+ | 原文链接：http://book.ccfyxt.asia/blog/0781472.sHtMl
+
+原标题：WebSocket 双向通信 demo 开发
+简介：golang excel 大文件读取流式解析，流式读取大 excel 文件，逐行解析数据，不加载全部内容进内存。
+ | 原文链接：http://book.ccfyxt.asia/blog/2702137.sHtMl
+
+原标题：golang 系统设计分表扩容数据平滑迁移思路
+简介：Git 分支切换合并删除完整操作，实操分支全生命周期操作，包含切换、合并、删除，熟悉日常开发分支处理流程。
+ | 原文链接：http://book.ccfyxt.asia/blog/2577924.sHtMl
+
+原标题：golang alertmanager 钉钉告警推送
+简介：多实例部署 Session 共享方案，多服务实例部署场景，实现 Session 共享，保证用户登录状态跨实例生效。
+ | 原文链接：http://book.ccfyxt.asia/blog/6146691.sHtMl
+
+原标题：Hands‑on：本地模拟消息重复消费处理实践
+简介：golang go 并发模式 fan‑out fan‑in，fanout 分发任务 fanin 汇总结果，多协程并发处理任务。
+ | 原文链接：http://book.ccfyxt.asia/blog/8236702.sHtMl
+
+原标题：golang es bool 查询条件组合技巧
+简介：golang 空接口 interface {} 类型处理，interface {} 存储任意类型，类型转换，处理泛型之前通用数据。
+ | 原文链接：http://book.ccfyxt.asia/blog/6056015.sHtMl
+
+原标题：灰度发布策略服务平滑升级
+简介：数据库连接及时关闭连接泄漏，确保数据库连接使用完毕释放归还连接池，杜绝连接泄漏耗尽连接。
+ | 原文链接：http://book.ccfyxt.asia/blog/0402659.sHtMl
+
+四、架构设计｜Architecture
+原标题：前端国际化多语言方案落地
+简介：线上接口超时故障排查思路，从网络、数据库、代码逻辑逐层排查接口超时，定位慢请求根因。
+ | 原文链接：http://book.ccfyxt.asia/blog/1557122.sHtMl
+
+原标题：golang mock 单元测试编写技巧
+简介：golang go regexp 正则预编译，regexp.MustCompile 预编译正则，不要循环内部编译正则，节省 CPU。
+ | 原文链接：http://book.ccfyxt.asia/blog/7146926.sHtMl
+
+原标题：方案设计：短链接系统完整架构方案拆解
+简介：golang wasm 浏览器 js 交互，go wasm 与 js 互相调用，浏览器端 go 程序操作 dom 调用 js 函数。
+ | 原文链接：http://book.ccfyxt.asia/blog/1691237.sHtMl
+
+原标题：golang 系统设计 rest api 接口设计最佳实践
+简介：golang delve 远程调试 go 线上程序，delve 远程调试，线上环境附加进程调试排查线上 bug。
+ | 原文链接：http://book.ccfyxt.asia/blog/6357036.sHtMl
+
+原标题：快速上手简单信号处理脚本编写
+简介：golang testify mock 模拟接口，mock 接口生成 mock 对象，单元测试模拟外部依赖行为。
+ | 原文链接：http://book.ccfyxt.asia/blog/5718013.sHtMl
+
+原标题：超大数据集分页性能优化方案
+简介：git cherry‑pick 规范操作防 bug，规范 cherry‑pick 使用流程，处理冲突，避免错误引入不兼容代码。
+ | 原文链接：http://book.ccfyxt.asia/blog/3035812.sHtMl
+
+原标题：踩坑记录：端口被占用导致服务启动失败
+简介：golang os 主机名内核版本读取，os 读取主机名，内核信息，操作系统版本，获取运行环境信息。
+ | 原文链接：http://book.ccfyxt.asia/blog/6146926.sHtMl
+
+原标题：golang 系统设计 span 埋点业务代码最小侵入思路
+简介：golang sync.Mutex 互斥锁正确模式，互斥锁 defer Unlock，锁粒度控制，避免锁范围过大。
+ | 原文链接：http://book.ccfyxt.asia/blog/9579030.sHtMl
+
+原标题：优化实践：读写分离分担主库查询压力
+简介：简易网关请求路由过滤模拟，模拟网关基础能力，实现请求路由转发、简单过滤，理解网关核心工作逻辑。
+ | 原文链接：http://book.ccfyxt.asia/blog/2901581.sHtMl
+
+原标题：Practice：实现数据库连接池简易模拟实现
+简介：前端国际化多语言方案落地，搭建前端多语言国际化方案，切换语言，页面文本自动切换对应语种。
+ | 原文链接：http://book.ccfyxt.asia/blog/2714693.sHtMl
+
+原标题：ORM 隐式慢查询问题规避
+简介：golang 内存持续上涨定位思路，区分内存泄漏、缓存占用、GC 参数不合理，分步定位内存持续走高。
+ | 原文链接：http://book.ccfyxt.asia/blog/8237149.sHtMl
+
+原标题：golang 系统设计 tcp 三次握手四次挥手梳理
+简介：前端下载导出文件功能实现，前端实现文件流下载导出，处理异常，适配浏览器不同下载行为。
+ | 原文链接：http://book.ccfyxt.asia/blog/4234104.sHtMl
+
+原标题：踩坑记录：乐观锁版本号处理不当更新失败
+简介：golang 读写分离 gorm 实现主从切换，gorm 配置主库写入从库查询，读写分离分担数据库查询压力。
+ | 原文链接：http://book.ccfyxt.asia/blog/2591693.sHtMl
+
+原标题：golang kafka offset 提交策略
+简介：Git commit 钩子提交规范校验，配置 Git 提交钩子，提交代码自动校验提交信息格式，规范提交记录。
+ | 原文链接：http://book.ccfyxt.asia/blog/2703361.sHtMl
+
+原标题：实战项目：本地模拟磁盘IO高负载观察服务行为
+简介：接口限流逻辑简单模拟实现，编写简易限流逻辑，限制接口访问频次，保护服务，避免短时间大量请求压垮系统。
+ | 原文链接：http://book.ccfyxt.asia/blog/7157256.sHtMl
+
+原标题：golang pprof 线上采集性能数据
+简介：CDN 缓存刷新获取最新静态资源，调用 CDN 刷新接口，清除节点旧缓存，用户访问到更新后的静态文件。
+ | 原文链接：http://book.ccfyxt.asia/blog/4598018.sHtMl
+
+原标题：开发记录：跨域中间件完整配置与边界处理
+简介：时间精度统一业务判断修复，统一业务使用时间戳精度，毫秒秒区分清楚，修复时间判断逻辑错误。
+ | 原文链接：http://book.ccfyxt.asia/blog/4899999.sHtMl
+
+原标题：golang 告警推送钉钉机器人实现
+简介：golang 重试退避机制代码实现，Go 实现请求重试与指数退避，处理临时故障，提升调用稳定性。
+ | 原文链接：http://book.ccfyxt.asia/blog/0212245.sHtMl
+
+?
