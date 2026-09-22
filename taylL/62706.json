@@ -1,0 +1,560 @@
+最新前沿技术资讯
+
+一、入门教程｜Getting Started
+原标题：新手教程：Git撤销错误提交的几种常用方式
+简介：golang go race 竞态检测工具，‑race 检测数据竞争，编译运行检测并发读写数据竞争 bug。
+ | 原文链接：http://wap.ourifi.asia/blog/7370403.sHtMl
+
+原标题：零基础理解依赖管理与包管理器
+简介：网络读取超时设置连接挂起防护，设置网络读取超时时间，防止请求无限挂起不返回，占用连接资源。
+ | 原文链接：http://wap.ourifi.asia/blog/8478247.sHtMl
+
+原标题：golang 系统设计容器镜像安全加固要点
+简介：golang redis pipeline 与 txpipeline 区别，区分普通管道与事务管道，根据业务场景选择合适批量执行方案。
+ | 原文链接：http://wap.ourifi.asia/blog/0605027.sHtMl
+
+原标题：对象存储上传下载权限实操
+简介：golang cpu pprof 性能分析实操，使用 pprof 采集 CPU 性能数据，定位 CPU 高占用函数，做性能优化。
+ | 原文链接：http://wap.ourifi.asia/blog/9536147.sHtMl
+
+原标题：Debug日志：生产环境偶发空指针异常排查
+简介：限流规则误拦截正常请求修复，修正限流规则阈值，避免合法用户被限流拦截，兼顾防护与可用性。
+ | 原文链接：http://wap.ourifi.asia/blog/8480281.sHtMl
+
+原标题：优化实践：读写分离分担主库查询压力
+简介：golang GC 调优 GOGC 参数调整，调整 GOGC 阈值，控制 GC 触发时机，权衡内存占用与 CPU 开销。
+ | 原文链接：http://wap.ourifi.asia/blog/7473474.sHtMl
+
+原标题：Security：业务操作审计日志安全留存
+简介：golang go 爬虫代理池轮换使用，http 代理池轮换，请求自动切换代理 IP，突破访问限制。
+ | 原文链接：http://wap.ourifi.asia/blog/4039171.sHtMl
+
+原标题：golang etcd 配置中心简单使用
+简介：golang 命令行参数解析开发，解析命令行入参，开发自定义 CLI 程序，读取启动参数配置服务。
+ | 原文链接：http://wap.ourifi.asia/blog/4923469.sHtMl
+
+原标题：golang 分布式锁防死锁处理
+简介：golang kafka 批量消费性能优化，开启批量拉取消息，调整批量大小，提升 kafka 消息消费吞吐量。
+ | 原文链接：http://wap.ourifi.asia/blog/8513514.sHtMl
+
+原标题：实战项目：WebSocket消息广播房间分组实践
+简介：请求重试组件退避策略实现，封装重试组件，实现指数退避策略，避免大量请求同时重试压垮下游。
+ | 原文链接：http://wap.ourifi.asia/blog/1780580.sHtMl
+
+原标题：记一次日志切割脚本错误直接清空业务日志
+简介：golang 处理连接被重置 reset 错误，识别 connection reset by peer，对端关闭连接异常处理逻辑。
+ | 原文链接：http://wap.ourifi.asia/blog/2713404.sHtMl
+
+原标题：架构复盘：数据库主从架构设计与延迟应对方案
+简介：golang go panic 合理使用边界，panic 只用于不可恢复程序错误，业务逻辑禁止直接 panic。
+ | 原文链接：http://wap.ourifi.asia/blog/6036249.sHtMl
+
+原标题：新手指南：看懂开源项目的Issue与PR
+简介：golang rsa 公钥加密私钥解密，rsa 非对称加密，大文件分块加密，处理非对称加密长度限制。
+ | 原文链接：http://wap.ourifi.asia/blog/0502247.sHtMl
+
+原标题：开发测试生产多环境配置区分
+简介：Git LFS 大文件推送失败解决，配置 Git LFS，处理仓库大文件，解决大文件推送报错推送失败。
+ | 原文链接：http://wap.ourifi.asia/blog/9557252.sHtMl
+
+原标题：JWT 令牌过期异常处理
+简介：golang prometheus 指标埋点开发，业务埋点计数器、仪表盘、直方图，对接 prometheus 采集监控指标。
+ | 原文链接：http://wap.ourifi.asia/blog/3924703.sHtMl
+
+原标题：golang 系统设计混沌测试故障注入简单示例
+简介：golang 任务失败重试与死信队列，异步任务失败自动重试，超过重试次数进入死信队列人工处理。
+ | 原文链接：http://wap.ourifi.asia/blog/0692759.sHtMl
+
+原标题：方案对比：轮询长轮询WebSocket推送架构选型
+简介：golang consul 服务发现简单示例，对接 Consul 实现服务注册发现，微服务实例自动感知。
+ | 原文链接：http://wap.ourifi.asia/blog/7493892.sHtMl
+
+原标题：Performance：JSON序列化性能优化实践
+简介：golang 环境变量读取与类型转换，读取系统环境变量，做类型转换默认值处理，适配多环境部署。
+ | 原文链接：http://wap.ourifi.asia/blog/2838018.sHtMl
+
+原标题：golang mongodb 事务多文档使用
+简介：golang go 服务压测前后性能对比，压测记录 QPS 延迟，优化前后对比，验证优化效果。
+ | 原文链接：http://wap.ourifi.asia/blog/9580584.sHtMl
+
+原标题：Practice：实现异步任务结果查询回调实践
+简介：golang go‑zero rpc 微服务开发，go‑zero 定义 proto，生成 rpc 服务代码，实现微服务调用。
+ | 原文链接：http://wap.ourifi.asia/blog/6189341.sHtMl
+
+原标题：golang 系统设计监控缺失指标补全完整流程
+简介：包管理器依赖缓存清理，清理本地依赖缓存，解决缓存旧包引发问题，拉取最新版本依赖包。
+ | 原文链接：http://wap.ourifi.asia/blog/4024581.sHtMl
+
+原标题：运维笔记：线上服务健康检查脚本编写
+简介：golang gin 参数绑定 query form json，掌握 Gin 多种参数绑定方式，适配不同请求格式参数读取。
+ | 原文链接：http://wap.ourifi.asia/blog/5035681.sHtMl
+
+原标题：Troubleshoot：磁盘打满导致服务全部不可用
+简介：golang 空接口 interface {} 类型处理，interface {} 存储任意类型，类型转换，处理泛型之前通用数据。
+ | 原文链接：http://wap.ourifi.asia/blog/6373915.sHtMl
+
+原标题：nodejs 集成测试业务流程编写
+简介：react 状态管理方案选型对比，对比 Redux、Zustand 等 React 状态管理库，分析适用业务场景辅助选型。
+ | 原文链接：http://wap.ourifi.asia/blog/8472369.sHtMl
+
+原标题：从零编写简易 CLI 命令行工具
+简介：golang redis lua 脚本原子操作，使用 Lua 脚本实现原子逻辑，减少网络往返，保障多命令原子执行。
+ | 原文链接：http://wap.ourifi.asia/blog/9479914.sHtMl
+
+原标题：golang docker 网络模式桥接 host
+简介：golang 制品镜像版本号规范管理，镜像版本号结合 git commit，明确每个镜像对应代码版本便于追溯。
+ | 原文链接：http://wap.ourifi.asia/blog/2371395.sHtMl
+
+原标题：开发记录：跨域中间件完整配置与边界处理
+简介：项目语义化版本号规范管理，遵循语义化版本规范管理项目版本，明确主次版本变更含义。
+ | 原文链接：http://wap.ourifi.asia/blog/7251350.sHtMl
+
+原标题：DNS 解析异常第三方调用故障
+简介：css 动画性能优化 GPU 加速，优化 CSS 动画，使用 GPU 加速属性，避免动画过程页面卡顿掉帧。
+ | 原文链接：http://wap.ourifi.asia/blog/0605688.sHtMl
+
+原标题：开发记录：短信发送服务封装，失败重试策略
+简介：golang cobra 命令行参数配置绑定，cobra 绑定配置文件环境变量命令行参数，多源配置合并。
+ | 原文链接：http://wap.ourifi.asia/blog/9251258.sHtMl
+
+原标题：golang 系统设计配置回滚版本历史记录实现
+简介：CI 持续集成自动构建流程，讲解 CI 基础概念，配置流水线实现代码提交后自动构建、测试，提升交付自动化。
+ | 原文链接：http://wap.ourifi.asia/blog/1680381.sHtMl
+
+原标题：Practice：实现请求重试组件支持退避策略
+简介：Mock 接口服务快速搭建实操，搭建模拟后端接口，自定义返回数据、延迟响应，前端开发阶段无需依赖真实后端服务。
+ | 原文链接：http://wap.ourifi.asia/blog/2046147.sHtMl
+
+原标题：服务器 Swap 关闭提升响应速度
+简介：golang http 文件下载断点续传服务，服务端实现断点续传，支持大文件分段下载，提升大文件下载稳定性。
+ | 原文链接：http://wap.ourifi.asia/blog/1473525.sHtMl
+
+原标题：图片上传预览格式大小处理
+简介：后端分页查询逻辑代码实现，编写后端分页接口，处理页码、每页条数参数，优化大数据量查询返回结果。
+ | 原文链接：http://wap.ourifi.asia/blog/0525926.sHtMl
+
+原标题：系统文件描述符上限调大
+简介：golang go 测试文件命名规范，_test.go 测试文件，TestXxx 单元测试函数命名规范。
+ | 原文链接：http://wap.ourifi.asia/blog/0715919.sHtMl
+
+原标题：JWT 令牌过期异常处理
+简介：开源项目构建失败排查步骤，梳理构建报错排查流程，从依赖、网络、权限、脚本多角度定位项目构建失败原因。
+ | 原文链接：http://wap.ourifi.asia/blog/7368469.sHtMl
+
+原标题：golang 系统设计分布式锁选型对比
+简介：golang redis bitmap 位图业务实战，bitmap 做签到统计、用户状态标记，节省大量内存空间。
+ | 原文链接：http://wap.ourifi.asia/blog/6324625.sHtMl
+
+原标题：golang 配置文件多环境加载
+简介：golang 容器信号转发处理问题修复，docker/k8s 正确转发 SIGTERM 信号，保证 go 程序收到信号优雅退出。
+ | 原文链接：http://wap.ourifi.asia/blog/3922390.sHtMl
+
+原标题：新手向：Mac/Windows开发环境差异踩坑
+简介：golang 限流熔断放在代理层实践，代理层统一限流熔断，对后端服务做流量保护。
+ | 原文链接：http://wap.ourifi.asia/blog/4039036.sHtMl
+
+原标题：golang 大文件 http 下载服务
+简介：WSL 内存上限限制防止资源耗尽，修改 WSL 内存上限配置，避免 WSL 占用主机大量内存资源。
+ | 原文链接：http://wap.ourifi.asia/blog/3994426.sHtMl
+
+原标题：避坑：正则回溯引发CPU占满DoS风险
+简介：golang go 项目工程目录布局标准，不同规模 go 项目目录结构，小型项目中型项目大型微服务项目布局。
+ | 原文链接：http://wap.ourifi.asia/blog/7595836.sHtMl
+
+
+二、踩坑排错｜Troubleshooting
+原标题：golang 系统设计 protobuf 默认值坑点梳理
+简介：golang rabbitmq 死信队列延迟消息，rabbitmq 实现死信、延迟消息，处理延时业务场景。
+ | 原文链接：http://wap.ourifi.asia/blog/1715026.sHtMl
+
+原标题：golang 系统设计网关路由规则动态配置实现
+简介：DNS 解析异常第三方调用故障，排查 DNS 解析故障，修复域名解析，恢复第三方接口网络调用。
+ | 原文链接：http://wap.ourifi.asia/blog/0325015.sHtMl
+
+原标题：golang 系统设计主键 id 选型雪花自增对比
+简介：Cookie 跨环境登录配置调整，调整 Cookie 域、Secure 属性，适配开发测试生产环境，修复登录失效。
+ | 原文链接：http://wap.ourifi.asia/blog/0474371.sHtMl
+
+原标题：安全复盘：Redis命令注入风险防护手段
+简介：nodejs 信号处理优雅关闭服务，监听系统信号，执行资源清理，实现 Node 服务优雅停机，拒绝粗暴杀死进程。
+ | 原文链接：http://wap.ourifi.asia/blog/0601693.sHtMl
+
+原标题：golang 系统设计参数校验统一处理方案
+简介：慢查询分析索引调优数据库实战，抓取慢查询，分析执行计划，优化索引，解决数据库慢查询拖慢业务。
+ | 原文链接：http://wap.ourifi.asia/blog/4147281.sHtMl
+
+原标题：Hands‑on：简易邮件发送服务封装实践
+简介：后端登录鉴权模块完整开发，实现完整登录模块，包含账号校验、令牌发放、接口鉴权整套能力。
+ | 原文链接：http://wap.ourifi.asia/blog/1690355.sHtMl
+
+原标题：YAML 配置文件语法快速上手
+简介：nestjs 拦截器过滤器管道实战，实操 Nest 拦截器、异常过滤器、管道校验，处理请求与响应统一逻辑。
+ | 原文链接：http://wap.ourifi.asia/blog/2882280.sHtMl
+
+原标题：golang 系统设计排行榜几种实现
+简介：golang go 多版本管理 gvm 使用，gvm 管理多个 go sdk 版本，快速切换不同 go 版本做项目开发。
+ | 原文链接：http://wap.ourifi.asia/blog/3968359.sHtMl
+
+原标题：CLI 工具进度条交互效果开发
+简介：golang validator 自定义校验规则，Gin Validator 自定义校验器，实现业务特殊参数校验逻辑。
+ | 原文链接：http://wap.ourifi.asia/blog/9595026.sHtMl
+
+原标题：性能笔记：布隆过滤器减少无效数据库查询
+简介：golang grpc 错误状态码标准化，grpc 标准化错误返回，定义业务错误码，客户端解析处理业务异常。
+ | 原文链接：http://wap.ourifi.asia/blog/3038828.sHtMl
+
+原标题：golang 链路追踪简易实现方案
+简介：golang udp 服务端客户端开发示例，golang 实现 UDP 服务收发数据包，实现 udp 协议通信程序。
+ | 原文链接：http://wap.ourifi.asia/blog/4913781.sHtMl
+
+原标题：golang mysql limit 大分页优化
+简介：service‑worker 离线缓存实践，使用 ServiceWorker 实现静态资源离线缓存，弱网环境页面依然可访问。
+ | 原文链接：http://wap.ourifi.asia/blog/2816838.sHtMl
+
+原标题：Issue：Nginxkeepalive参数不合理大量TIME_WAIT
+简介：golang go race 竞态检测工具，‑race 检测数据竞争，编译运行检测并发读写数据竞争 bug。
+ | 原文链接：http://wap.ourifi.asia/blog/6301515.sHtMl
+
+原标题：golang 系统设计监控体系指标分类方法论梳理
+简介：golang 漏桶算法实现接口限流，漏桶算法控制请求流出速率，平滑突发流量，削平流量峰值。
+ | 原文链接：http://wap.ourifi.asia/blog/1714504.sHtMl
+
+原标题：golang minio 对象存储接口开发
+简介：前端大文件分片上传完整方案，前端分片切割大文件，配合后端分片接口，实现稳定大文件上传。
+ | 原文链接：http://wap.ourifi.asia/blog/8593829.sHtMl
+
+原标题：golang 系统设计分布式锁不同场景选型对比
+简介：golang go 初始化顺序包变量 init 函数，包级变量初始化，init 执行顺序，理解包加载执行流程。
+ | 原文链接：http://wap.ourifi.asia/blog/6361257.sHtMl
+
+原标题：Git 子模块更新代码不全修复
+简介：手写简易 ORM 理解对象映射，手写极简 ORM 示例，理解对象与数据库表字段映射底层原理。
+ | 原文链接：http://wap.ourifi.asia/blog/9634625.sHtMl
+
+原标题：Issue：CI脚本超时，构建任务无故终止
+简介：golang contract 契约测试微服务，微服务契约测试，保证接口变更不破坏调用方，提前发现兼容性问题。
+ | 原文链接：http://wap.ourifi.asia/blog/6929469.sHtMl
+
+原标题：golang 系统设计监控告警阈值设置思路
+简介：golang golangci‑lint 静态代码检查配置，golangci‑lint 静态检查，代码规范检测，提前发现代码隐患。
+ | 原文链接：http://wap.ourifi.asia/blog/3968471.sHtMl
+
+原标题：golang goroutine 池任务调度
+简介：golang rate‑limiter 限流组件，封装通用 Go 限流组件，支持多算法，业务接口直接复用调用。
+ | 原文链接：http://wap.ourifi.asia/blog/9481136.sHtMl
+
+原标题：golang 系统设计限流算法原理代码实现
+简介：数据库读写分离性能优化，讲解读写分离原理，主库写入从库查询，分担数据库查询压力，提升查询性能。
+ | 原文链接：http://wap.ourifi.asia/blog/5147177.sHtMl
+
+原标题：golang 系统设计 id 生成器选型对比
+简介：golang 多协程任务池并发控制，实现协程任务池，控制并发协程数量，防止无限制创建 goroutine。
+ | 原文链接：http://wap.ourifi.asia/blog/4858360.sHtMl
+
+原标题：Docker Compose 一键搭建本地栈
+简介：golang golangci‑lint 静态代码检查配置，golangci‑lint 静态检查，代码规范检测，提前发现代码隐患。
+ | 原文链接：http://wap.ourifi.asia/blog/6147714.sHtMl
+
+原标题：网络读取超时设置连接挂起防护
+简介：golang testify mock 模拟接口，mock 接口生成 mock 对象，单元测试模拟外部依赖行为。
+ | 原文链接：http://wap.ourifi.asia/blog/7372382.sHtMl
+
+原标题：Performance：大事务拆分，减少锁持有时间
+简介：golang go 符号表与调试信息取舍，区分生产环境调试符号取舍，平衡镜像体积与故障排查能力。
+ | 原文链接：http://wap.ourifi.asia/blog/0140136.sHtMl
+
+原标题：golang 系统设计 git 分支流程 gitflow 实操
+简介：golang base64 大文件流式编解码，大文件流式 base64 转换，不用一次性加载全部文件进入内存。
+ | 原文链接：http://wap.ourifi.asia/blog/2582571.sHtMl
+
+原标题：安全实践：SQL注入产生场景与完整防御手段
+简介：golang sync.Once 只执行一次，sync.Once 做单例初始化，保证代码只执行一次，并发安全。
+ | 原文链接：http://wap.ourifi.asia/blog/8413616.sHtMl
+
+原标题：golang k8s ingress 路由域名转发
+简介：Nginx 请求头大小上限调整，修改 Nginx 配置，调大请求头允许最大大小，避免大 Header 请求被拒绝。
+ | 原文链接：http://wap.ourifi.asia/blog/4636126.sHtMl
+
+原标题：golang 系统设计消息发送确认机制配置实操
+简介：CI 流水线构建失败日志排查，阅读 CI 流水线输出日志，定位构建脚本、依赖、环境导致流水线失败问题。
+ | 原文链接：http://wap.ourifi.asia/blog/5214515.sHtMl
+
+原标题：方案对比：定时任务框架选型与架构对比
+简介：golang http 服务优雅关闭完整示例，接收终止信号，停止接收新请求，等待现有请求处理完毕后退出服务。
+ | 原文链接：http://wap.ourifi.asia/blog/0257247.sHtMl
+
+原标题：golang 系统设计结构化日志字段规范约定
+简介：服务健康检查监控接口开发，开发健康检查接口，反馈服务运行状态，供编排工具监控服务存活状态。
+ | 原文链接：http://wap.ourifi.asia/blog/7378847.sHtMl
+
+原标题：排错：GitLFS大文件推送失败完整排障
+简介：golang go regexp 正则预编译，regexp.MustCompile 预编译正则，不要循环内部编译正则，节省 CPU。
+ | 原文链接：http://wap.ourifi.asia/blog/4151404.sHtMl
+
+原标题：架构思考：单体应用向微服务拆分演进路径
+简介：golang url 解析路径参数提取，url.Parse 解析 url，获取协议主机路径查询参数。
+ | 原文链接：http://wap.ourifi.asia/blog/9280274.sHtMl
+
+原标题：golang 系统设计数据库索引设计方法论
+简介：golang go 基准测试 benchmark 编写，Benchmark 性能基准测试，测量函数执行耗时内存分配情况。
+ | 原文链接：http://wap.ourifi.asia/blog/2479345.sHtMl
+
+原标题：代码模块化组件化拆分思路
+简介：golang kitex 中间件与元数据传递，kitex 自定义中间件，透传 traceId 鉴权元数据，统一处理请求。
+ | 原文链接：http://wap.ourifi.asia/blog/4140130.sHtMl
+
+原标题：golang 系统设计读写分离架构示例
+简介：golang 网卡 ip 读取网络信息获取，程序读取本机网卡 IP，多网卡环境筛选业务使用 IP 地址。
+ | 原文链接：http://wap.ourifi.asia/blog/9584747.sHtMl
+
+原标题：开发复盘：数据库批量更新优化性能实践
+简介：nodejs 消息队列消费服务开发，Node 开发消息队列消费端，监听队列消息执行业务逻辑，异步解耦业务。
+ | 原文链接：http://wap.ourifi.asia/blog/0616907.sHtMl
+
+原标题：golang 系统设计消息消费 offset 管理策略
+简介：并发数据覆盖加锁安全处理，多线程并发修改同一数据，增加锁机制，防止并发覆盖丢失更新数据。
+ | 原文链接：http://wap.ourifi.asia/blog/4089022.sHtMl
+
+原标题：实践：数据库慢查询分析与索引优化实战演练
+简介：golang 文件句柄耗尽排查处理，统计进程打开文件句柄，找到未关闭文件，修复句柄泄漏问题。
+ | 原文链接：http://wap.ourifi.asia/blog/5251271.sHtMl
+
+原标题：踩坑：Docker容器内时区不一致引发的时间BUG
+简介：golang context 包标准用法规范，context 传递请求元数据、超时、取消，函数第一个参数传入 ctx。
+ | 原文链接：http://wap.ourifi.asia/blog/4158364.sHtMl
+
+三、实战开发｜Practice
+原标题：golang 系统设计灰度发布实现思路
+简介：golang go 排序 sort 包自定义排序，sort 包实现自定义排序逻辑，对切片按业务规则排序。
+ | 原文链接：http://wap.ourifi.asia/blog/0707947.sHtMl
+
+原标题：nodejs 多进程任务分发处理
+简介：golang go 防止路径穿越攻击，文件操作校验路径，拒绝../ 路径穿越，禁止访问系统任意文件。
+ | 原文链接：http://wap.ourifi.asia/blog/7561808.sHtMl
+
+原标题：新手教程：如何给开源项目提交第一个PR
+简介：热更新开发环境配置教程，配置代码热重载，修改代码无需重启服务立即生效，大幅提升本地开发调试效率。
+ | 原文链接：http://wap.ourifi.asia/blog/2500670.sHtMl
+
+原标题：线程调度优化减少上下文切换
+简介：golang os.Signal 信号监听完整示例，signal.Notify 监听信号，缓冲 channel 防止信号丢失。
+ | 原文链接：http://wap.ourifi.asia/blog/8001099.sHtMl
+
+原标题：golang 系统设计链路追踪核心概念 trace span 讲解
+简介：golang go 零停机升级实践要点，socket 继承，流量无损，旧连接处理完毕后旧进程退出。
+ | 原文链接：http://wap.ourifi.asia/blog/0033142.sHtMl
+
+原标题：golang redis 持久化 RDB AOF 对比
+简介：golang gitlab ci go 项目流水线编写，gitlab ci 流水线执行单元测试、静态检查、构建推送镜像。
+ | 原文链接：http://wap.ourifi.asia/blog/4747466.sHtMl
+
+原标题：新手快速上手 Git 版本控制实操指南
+简介：golang go proxy 私有代理配置，配置 go proxy 私有代理，加速依赖下载，内网环境构建项目。
+ | 原文链接：http://wap.ourifi.asia/blog/2544241.sHtMl
+
+原标题：安全笔记：GitHubAction密钥安全管理
+简介：golang goroutine 协程基础实操，Goroutine 基础实操案例，启动协程执行任务，理解轻量级协程特性。
+ | 原文链接：http://wap.ourifi.asia/blog/5929089.sHtMl
+
+原标题：golang 系统设计缓存热点 key 问题业务规避
+简介：浏览器缓存强制刷新方案，设置 HTTP 缓存头，处理浏览器缓存旧静态资源，让用户加载更新后的页面。
+ | 原文链接：http://wap.ourifi.asia/blog/7097764.sHtMl
+
+原标题：架构笔记：分库分表中间件选型业务约束
+简介：golang nats 轻量消息队列 go 开发，nats 高性能轻量消息系统，发布订阅模式异步解耦业务。
+ | 原文链接：http://wap.ourifi.asia/blog/5496991.sHtMl
+
+原标题：架构复盘：服务灰度发布架构设计与流量切分
+简介：服务健康检查告警监控体系，搭建健康检查加告警体系，服务异常及时推送告警通知运维人员。
+ | 原文链接：http://wap.ourifi.asia/blog/2132415.sHtMl
+
+原标题：架构复盘：数据库主从架构设计与延迟应对方案
+简介：golang word 文档生成处理 go 方案，go 生成 word 文档报表，填充文本表格，输出 docx 文件。
+ | 原文链接：http://wap.ourifi.asia/blog/1724726.sHtMl
+
+原标题：CI 构建缓存加速编译速度
+简介：日志切割配置防止日志丢失，配置日志切割轮转策略，日志按大小时间切割，防止日志文件丢失。
+ | 原文链接：http://wap.ourifi.asia/blog/1589131.sHtMl
+
+原标题：golang nginx 反向代理 go 服务配置
+简介：golang GC 频繁 STW 停顿优化，减少小对象分配，调整 GOGC，降低 GC 停顿对接口延迟影响。
+ | 原文链接：http://wap.ourifi.asia/blog/6593695.sHtMl
+
+原标题：golang minio 对象存储接口开发
+简介：异步编程 Promise 执行流程解析，拆解异步执行顺序，理解回调与 Promise 差异，理清异步场景下代码执行逻辑。
+ | 原文链接：http://wap.ourifi.asia/blog/5371563.sHtMl
+
+原标题：Practice：实现接口mock动态返回不同响应
+简介：vite 插件开发自定义构建逻辑，开发自定义 vite 插件，介入构建生命周期，实现项目个性化构建逻辑。
+ | 原文链接：http://wap.ourifi.asia/blog/1881369.sHtMl
+
+原标题：部署复盘：静态站点部署CDN完整流程
+简介：golang 异步任务队列 worker 池开发，任务入数据库或 redis，worker 池消费执行，异步处理耗时业务。
+ | 原文链接：http://wap.ourifi.asia/blog/2814814.sHtMl
+
+原标题：golang 系统设计消息消费 offset 管理策略
+简介：golang select 随机分支执行特性，多个 channel 就绪 select 随机选择，理解 select 行为特性。
+ | 原文链接：http://wap.ourifi.asia/blog/7360359.sHtMl
+
+原标题：golang 系统设计 ci 流水线安全管控思路
+简介：golang 布隆过滤器实现去重，Go 实现布隆过滤器，海量数据去重，节省内存开销，提升判断效率。
+ | 原文链接：http://wap.ourifi.asia/blog/3094126.sHtMl
+
+原标题：快速入门OpenAPI文档生成基础实践
+简介：golang gin 中间件执行顺序讲解，理解 Gin 中间件注册顺序，区分前置后置逻辑，规避中间件顺序 bug。
+ | 原文链接：http://wap.ourifi.asia/blog/1690130.sHtMl
+
+原标题：全局时间标准统一逻辑错乱修复
+简介：golang gorm 索引设置与优化技巧，定义数据库索引，理解索引生效条件，避免索引失效慢查询。
+ | 原文链接：http://wap.ourifi.asia/blog/2826960.sHtMl
+
+原标题：golang 系统设计故障应急响应完整流程梳理
+简介：golang goroutine 泄露检测告警实现，监控 goroutine 数量，突增触发告警，提早发现协程泄露。
+ | 原文链接：http://wap.ourifi.asia/blog/3938574.sHtMl
+
+原标题：新手向：npm/pip/maven依赖版本冲突入门排查
+简介：golang k8s 客户端 client‑go 简单示例，client‑go 操作 k8s 资源，增删改查 pod deployment 等资源对象。
+ | 原文链接：http://wap.ourifi.asia/blog/4157371.sHtMl
+
+原标题：golang 系统设计 ci 流水线安全管控思路
+简介：golang redis scan 遍历 key 避免阻塞，使用 scan 迭代遍历 redis 键，不用 keys 命令，防止阻塞 redis 服务。
+ | 原文链接：http://wap.ourifi.asia/blog/4159130.sHtMl
+
+原标题：设计思考：业务埋点架构日志埋点设计原则
+简介：文件监控服务自动重启开发，监控项目文件变更，代码修改自动重启服务，提升本地开发调试效率。
+ | 原文链接：http://wap.ourifi.asia/blog/7039126.sHtMl
+
+原标题：golang 系统设计线上日志快速检索技巧
+简介：golang goreleaser 自动版本发布打包，goreleaser 自动化打包发布，生成多平台二进制归档文件。
+ | 原文链接：http://wap.ourifi.asia/blog/7471695.sHtMl
+
+原标题：实践：接口参数自动校验业务落地实践
+简介：golang go 程序 CPU 占用高定位步骤，pprof 定位热点函数，分析 CPU 高占用，优化耗时代码逻辑。
+ | 原文链接：http://wap.ourifi.asia/blog/4262268.sHtMl
+
+原标题：golang docker 镜像构建最佳实践
+简介：系统时间同步定时任务偏移，同步服务器系统时间，防止时间偏移，避免定时任务执行时间错乱。
+ | 原文链接：http://wap.ourifi.asia/blog/6300390.sHtMl
+
+原标题：golang 系统设计技术债务识别登记治理思路
+简介：golang 数据库分表策略按时间分片，按时间维度分表，历史数据拆分，单表数据量控制保证查询性能。
+ | 原文链接：http://wap.ourifi.asia/blog/2812480.sHtMl
+
+原标题：新手向：开源项目fork与同步上游代码
+简介：JWT 工具封装令牌刷新过期，封装 JWT 工具类，实现令牌生成、校验、过期刷新整套令牌管理逻辑。
+ | 原文链接：http://wap.ourifi.asia/blog/0701356.sHtMl
+
+原标题：Performance：缓存策略优化，降低数据库压力
+简介：golang 探测文件真实内容类型，读取文件头部字节判断真实文件格式，规避后缀伪造。
+ | 原文链接：http://wap.ourifi.asia/blog/6070685.sHtMl
+
+原标题：记一次第三方回调IP变动未更新防火墙拦截
+简介：golang go 第三方库选型评估要点，评估库活跃度维护情况、性能、依赖数量，选择合适开源库。
+ | 原文链接：http://wap.ourifi.asia/blog/7378026.sHtMl
+
+原标题：项目实践：数据库慢日志采集分析落地实践
+简介：golang interface 接口使用避坑，interface 判 nil 坑点，理解接口底层结构，避免判空逻辑失效。
+ | 原文链接：http://wap.ourifi.asia/blog/6257969.sHtMl
+
+原标题：复盘总结：线上故障完整复盘报告模板示例
+简介：golang go 项目 CI github actions 配置，github actions 实现 go 项目 ci，自动测试、代码检查、编译打包镜像。
+ | 原文链接：http://wap.ourifi.asia/blog/1484747.sHtMl
+
+原标题：golang prometheus 告警规则编写
+简介：golang go 程序敏感信息禁止打印日志，密钥密码禁止输出日志，防止敏感信息日志泄露。
+ | 原文链接：http://wap.ourifi.asia/blog/6151381.sHtMl
+
+原标题：Practice：实现数据库事务消息最终一致性demo
+简介：golang context.WithCancel 手动取消上下文，WithCancel 生成可取消 ctx，手动调用 cancel 触发取消。
+ | 原文链接：http://wap.ourifi.asia/blog/0379124.sHtMl
+
+原标题：设计思考：分布式系统时钟同步带来的架构问题
+简介：文件分片上传断点续传功能，实现文件分片上传，记录上传进度，支持断点续传大文件上传。
+ | 原文链接：http://wap.ourifi.asia/blog/4690246.sHtMl
+
+原标题：Debug：表单提交特殊字符造成接口解析失败
+简介：CI/CD 流水线自动构建部署落地，搭建完整 CI/CD 流水线，代码提交自动构建、测试、部署到目标环境。
+ | 原文链接：http://wap.ourifi.asia/blog/1250245.sHtMl
+
+原标题：golang 系统设计序列化性能选型对比
+简介：数据库索引重建提升查询速度，针对碎片化索引，重建数据库索引，恢复 SQL 查询执行性能。
+ | 原文链接：http://wap.ourifi.asia/blog/1818057.sHtMl
+
+原标题：部署实践：容器优雅停机配置处理信号
+简介：定时任务重复执行分布式锁，使用分布式锁控制定时任务，保证集群环境定时任务只会执行一次。
+ | 原文链接：http://wap.ourifi.asia/blog/0614816.sHtMl
+
+四、架构设计｜Architecture
+原标题：Hands‑on：简易邮件发送服务封装实践
+简介：golang time 时间比较 Before After Equal，时间比较不要直接减，使用内置方法判断时间先后。
+ | 原文链接：http://wap.ourifi.asia/blog/1590149.sHtMl
+
+原标题：Security：密码存储哈希加盐最佳实践
+简介：golang jaeger 链路追踪部署对接，jaeger 接收 opentelemetry 链路数据，可视化完整调用链路。
+ | 原文链接：http://wap.ourifi.asia/blog/3947369.sHtMl
+
+原标题：快速上手简易网关转发逻辑模拟
+简介：安全组端口开放网络访问，调整服务器安全组规则，开放业务需要端口，恢复外部网络访问服务。
+ | 原文链接：http://wap.ourifi.asia/blog/3928069.sHtMl
+
+原标题：golang etcd watch 监听配置变更
+简介：golang go mod tidy 依赖清理，go mod tidy 自动增删依赖，整理 go.mod go.sum 文件。
+ | 原文链接：http://wap.ourifi.asia/blog/3825026.sHtMl
+
+原标题：golang 系统设计配置多环境隔离方案落地
+简介：golang os 文件目录操作大全，文件创建删除重命名，目录遍历，文件信息读取，完成各类文件系统操作。
+ | 原文链接：http://wap.ourifi.asia/blog/0635847.sHtMl
+
+原标题：限流规则误拦截正常请求修复
+简介：golang channel 缓冲无缓冲区别，缓冲 channel 与无缓冲 channel，底层行为差异业务选型参考。
+ | 原文链接：http://wap.ourifi.asia/blog/8072588.sHtMl
+
+原标题：代码模块化组件化拆分思路
+简介：golang 自定义 pprof 扩展业务指标，扩展 pprof，输出业务自定义指标，结合性能数据分析业务状态。
+ | 原文链接：http://wap.ourifi.asia/blog/1411568.sHtMl
+
+原标题：Practice：模拟热点key，验证缓存防护策略
+简介：golang sync.WaitGroup 协程等待控制，WaitGroup 控制一组协程等待全部执行完成，完成批量协程任务调度。
+ | 原文链接：http://wap.ourifi.asia/blog/9517138.sHtMl
+
+原标题：golang 系统设计压测数据构造方法实现
+简介：nodejs 信号处理优雅关闭服务，监听系统信号，执行资源清理，实现 Node 服务优雅停机，拒绝粗暴杀死进程。
+ | 原文链接：http://wap.ourifi.asia/blog/8389270.sHtMl
+
+原标题：golang 系统设计读写穿透更新缓存几种方案
+简介：系统字符集统一乱码修复，统一数据库、程序、操作系统字符集，解决中文乱码显示异常问题。
+ | 原文链接：http://wap.ourifi.asia/blog/4613781.sHtMl
+
+原标题：简易日志收集集中管理方案
+简介：golang net/http/httptest 服务端模拟，httptest.NewRecorder 记录 handler 响应，校验返回状态码 body。
+ | 原文链接：http://wap.ourifi.asia/blog/5171514.sHtMl
+
+原标题：Performance：数据库join优化，大表join规避
+简介：golang os 文件目录操作大全，文件创建删除重命名，目录遍历，文件信息读取，完成各类文件系统操作。
+ | 原文链接：http://wap.ourifi.asia/blog/8480563.sHtMl
+
+原标题：Practice：实现多数据源动态切换组件实践
+简介：golang go 二进制安全 strip 减小体积，strip 剥离二进制调试符号，缩小程序二进制文件体积。
+ | 原文链接：http://wap.ourifi.asia/blog/0695514.sHtMl
+
+原标题：golang 配置热更新不重启服务
+简介：Mock 接口服务快速搭建实操，搭建模拟后端接口，自定义返回数据、延迟响应，前端开发阶段无需依赖真实后端服务。
+ | 原文链接：http://wap.ourifi.asia/blog/8647247.sHtMl
+
+原标题：性能笔记：压测如何定位真实系统瓶颈
+简介：git rebase 整理提交历史实操，使用 rebase 整理杂乱提交记录，将多条提交合并，保持 git 提交历史干净线性。
+ | 原文链接：http://wap.ourifi.asia/blog/7035783.sHtMl
+
+原标题：新手参与开源社区贡献指南
+简介：golang grpc 客户端流上传数据，客户端流式请求，客户端分批上传数据到服务端，适合大文件传输。
+ | 原文链接：http://wap.ourifi.asia/blog/5180585.sHtMl
+
+原标题：Issue：文件句柄耗尽，服务缓慢卡死复盘
+简介：golang goroutine 泄露检测告警实现，监控 goroutine 数量，突增触发告警，提早发现协程泄露。
+ | 原文链接：http://wap.ourifi.asia/blog/2813815.sHtMl
+
+原标题：golang 系统设计 pr 评审合并完整流程
+简介：golang go 程序容器资源 requests limits，设置容器 cpu 内存配额，防止实例抢占集群资源，稳定调度。
+ | 原文链接：http://wap.ourifi.asia/blog/8403704.sHtMl
+
+?
